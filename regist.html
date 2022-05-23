@@ -1,0 +1,62 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册 Register</title>
+    <link rel="stylesheet" href="./css/register.css" type="text/css">
+    <link rel="stylesheet" href="./css/base.css" type="text/css">
+   	<script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+</head>
+<body>
+    <main>
+        <div>
+            <h1>注册 Register</h1>
+        </div>
+        <div class="reg_form">
+           <form action="#" method="post" >
+               <ul>
+                   <li>
+                       <label for="name">姓名：</label>
+                       <input type="text" value="" id="name" name="name"  tabindex="1" placeholder="请输入真实姓名">
+                       <span id="nameInfo"></span>
+                   </li>
+                   <li >
+                       <label for="userGender">性别：</label>
+                       <input  class="sex" type="radio" value="1" id="userGender" name="userGender">男 
+                       <input class="sex" type="radio" value="0" id="" name="userGender">女
+                   </li>
+                   <li>
+                       <label for="username">账户名称：</label>
+                       <input type="text" value="" id="username" name="userName">
+                   		   <span id="userNameInfo"></span>
+                   </li>
+                   <li>
+                       <label for="password">账户密码：</label>
+                       <input type="password"  id="password" name="userPassword">
+                   		   <span id="passwordInfo"></span>
+                   </li>
+                    <li>
+                        <label for="phone">电话号码：</label>
+                        <input type="tel" id="phone" name="userPhone" value="">
+                           <span id="userPhoneInfo"></span>
+                    </li>
+                    <li>
+                        <label for="address">收货地址：</label>
+                        <input type="text" name="userArea" id="address" placeholder="请填写详细地址">
+                    	<span id="userAreaInfo"></span>
+                    </li>
+                     <li>
+                        <label for="userPhoto">头像上传：</label>
+                        <input class="photo" type="file" name="userPhoto" id="userPhoto">
+                    </li>
+                    <li>
+                        <input type="submit" value="立即注册" id="">
+                        <a href="login.html">返回登录</a>
+                    </li>
+               </ul>
+
+           </form>
+        </div>
+
+    </main>
+</body>
+</html>

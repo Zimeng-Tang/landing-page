@@ -1,0 +1,107 @@
+body{
+    width: 100%;
+    height: 100%;
+    background: url("../images/login.jpg") no-repeat;
+    background-size: 50%;
+}
+li{
+    list-style: none;
+}
+
+.qc{
+    float: left;
+    width: 750px;
+    height: 500px;
+}
+.login-box {
+    float: left;
+    position: relative;
+    top: 80px;
+    width: 400px;
+    height: 400px;
+    background: #f6f6f6;
+    border-radius: 30px;
+    color: #fff;
+
+}
+
+.login-box>h1 {
+    margin: 50px 0 10px 0;
+    text-align: center;
+    font-size: 60px;
+    color: #ee8c3d;
+}
+
+.output-frame {
+    margin-top: 20px;
+    width: 350px;
+    height: 40px;
+    margin-left: 47px;
+}
+
+.output-frame>label {
+    display: inline-block;
+    font-size: 16px;
+    width: 64px;
+    height: 40px;
+    line-height: 40px;
+    background-color:#ee8c3d;
+    border-radius: 40px 10px 10px 40px;
+    text-indent: 20px;
+
+}
+
+.output-frame>input {
+    width: 220px;
+    height: 40px;
+    margin-left: 6px;
+    padding: 0 20px 0 10px;
+    border-radius: 10px 40px 40px 10px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    background-color: rgba(247, 183, 146, 0.3);
+    color: #fff;
+}
+
+.output-frame>input:focus {
+    color: black;
+    background-color: #fff;
+}
+
+.login-box .bt ul li {
+    float: left;
+}
+
+.login-btn {
+    margin: 30px 30px;
+    width: 258px;
+    height: 40px;
+    font-size: 20px;
+    border: none;
+    background-color:#ee8c3d;
+    color: #fff;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.register-btn{
+    position: relative;
+    top: -7px;
+    left: 218px;
+    border: none;
+    background-color: #f6f6f6;
+    color: #8b8787;
+}
+.login-btn:hover {
+    background-color: #ee8c3d;
+}
+
+.bt .phone a{
+    display: inline-block;
+    margin: 0px 48px;
+    color: rgb(94, 92, 92);
+    text-decoration: none;
+}
+.bt .phone a:hover{
+    color: rgb(219, 104, 10);
+}

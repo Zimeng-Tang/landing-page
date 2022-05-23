@@ -1,0 +1,64 @@
+body{
+    width: 100%;
+    height: 100%;
+    background: url("../images/VCG211251238545(1).png") no-repeat;
+    background-size: 120%;
+}
+main div:first-child{
+    height: 100px;
+    padding: 20px 300px;
+    font-size: 25px;
+    border-bottom: 3px solid #0b0d0e;
+}
+.reg_form{
+    width: 500px;
+    margin: 50px auto 0;
+    font-size: 14px;
+    color: #0b0d0e;
+}
+.reg_form ul li label{
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+}
+.reg_form ul li input{
+    width: 242px;
+    height: 37px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding-left: 2px;
+    outline: none;
+}
+.reg_form ul li {
+    margin-bottom: 20px;
+}
+.reg_form ul li:last-child{
+    text-align: center;
+}
+.reg_form ul li:last-child a{
+    display: inline-block;
+    width: 100px;
+    height: 37px;
+    line-height: 37px;
+    background-color: #ee8c3d;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.reg_form ul li:last-child input{
+    width: 100px;
+    background-color: #ee8c3d;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.reg_form ul li  .sex{
+	width: 42px;
+	height: 22px;
+}
+.reg_form ul li .photo{
+	width: 52px;
+	height: 24px;
+}

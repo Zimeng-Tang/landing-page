@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 12px;
+}
+button,input{
+    border-style: none;
+    border: 0;
+    outline: none;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #2b2828;
+   
+}
+a:hover{
+    color: #ee8c3d;
+
+}
+.w{
+    width: 1200px;
+    margin: 0 auto;
+}
+.style-yellow{
+    color: #ee8c3d;
+}

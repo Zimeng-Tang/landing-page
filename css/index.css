@@ -1,0 +1,252 @@
+/*鐗堝績*/
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+/*蹇嵎瀵艰埅妯″潡*/
+.shortcut{
+    height: 31px;
+    line-height: 31px;
+    background-color: #f1f1f1;
+}
+.shortcut ul li{
+    float: left;
+}
+.shortcut .fr ul li:nth-child(2){   
+    width: 1px;
+    height: 12px;
+    background-color: #666;
+    margin: 9px 15px 0;
+}
+.arrow-icon::after{
+    content: '\e91e';
+    font-family: 'icomoon';/*鎹�*/
+    margin-left: 6px;
+}
+/*header瀵艰埅妯″潡*/
+.header{
+    position: relative;
+    height: 105px;
+}
+.logo {
+    padding: 20px 80px;
+    font-size: 20px;
+}
+.logo a{
+    color: #ee8c3d;
+}
+.search{
+    position: absolute;
+    left: 346px;
+    top: 25px;
+}
+.search input{
+    float: left;
+    width: 454px;
+    height: 40px;
+    padding-left: 10px;
+    border: 2px solid #ee8c3d;
+    outline: none;
+}
+.search button{
+    float: left;
+    width: 80px;
+    height: 40px;
+    margin-left: 6px;
+    background-color: #ee8c3d;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 10px 40px 40px 10px;
+    cursor: pointer;
+}
+.hotwords{
+    position: absolute;
+    top: 66px;
+    left: 346px;
+    margin-top: 6px;
+}
+.hotwords a{
+    margin: 0 10px;
+}
+/*main妯″潡*/
+main{
+    height: 400px;
+}
+.bar{
+    float: left;
+}
+/*nav瀵艰埅妯″潡*/
+nav{
+    width: 200px;
+    height: 360px;
+    background-color: #ee8c3d;
+    margin: 10px 30px 10px 80px;
+    border-radius: 10px;
+}
+nav ul li{
+    position: relative;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 10px;
+}
+nav ul li::after{
+    content: "";
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    width: 8px;
+    height: 8px;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    transform: rotate(-45deg);
+    transition: all 0.2s;
+}
+nav ul li:hover{
+    background-color: rgba(247, 183, 146, 0.3);
+}
+nav ul li a:hover{
+    color: #fff;
+}
+nav ul li a{
+    font-size: 14px;
+    color: #fff;
+    margin-left:  30px;
+}
+/*杞挱鍥炬ā鍧�*/
+.banner{
+    position: relative;
+    width: 550px;
+    height: 330px;
+    margin-top: 10px;
+}
+.banner img{
+    width: 550px;
+    height: 360px;
+    border-radius: 10px;
+}
+.banner .banner_pic .pic{
+    display: none;
+}
+.banner .banner_pic .current{
+    display: block;
+}
+.banner ol{
+    position: absolute;
+    left: 45%;
+    bottom: 6%;
+}
+.banner ol li{
+    float: left;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #2fafbc;
+    border-radius: 50%;
+    margin-right: 12px;
+    text-align: center;
+    line-height: 22px;
+    background-color: #fff;
+    color: #2fafbc;
+    font-size: 16px;
+    font-weight: bold;
+    opacity: 0.5;
+}
+.banner ol li{
+    cursor: pointer;
+}
+.banner ol .current{
+    color: #fff;
+    background: #2fafbc;
+    float: left;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #2fafbc;
+    border-radius: 50%;
+    margin-right: 12px;
+    text-align: center;
+    line-height: 22px;
+    font-size: 16px;
+    font-weight: bold;
+}
+/*鐗逛环鍟嗗搧妯″潡*/
+.right-img{
+    width: 220px;
+    height: 360px;
+    margin: 10px 30px;
+    padding-left: 10px;
+    background-color: #f3f3f3;
+    border-radius: 10px;
+}
+.right-img div:first-child{
+    width: 220px;
+    height: 40px;
+
+}
+.right-img div:first-child img{
+    width: 220px;
+    height: 60px;
+}
+.right-img div{
+    width: 200px;
+    height: 150px;
+    margin-bottom:8px;
+}
+.right-img img{
+    width: 200px;
+    height: 150px;
+}
+/*鏂板搧涓婂競妯″潡*/
+.new{
+    width: 1060px;
+    height: 320px;
+    margin: 20px auto;
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    padding-left: 4px;
+}
+.new ul li{
+    float: left;
+    width: 201px;
+    height: 300px;
+    margin: 10px 5px;
+    border: 1px solid #ee8c3d;
+}  
+.new ul li:first-child{
+    background-color: #ee8c3d;
+    color: #fff;
+    font: 60px '瀹嬩綋';
+    padding: 60px 0 0 40px;
+}
+.new ul li img{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+.new ul li:first-child img{
+    width: 201px;
+    height: 298px;
+}
+.money{
+    font-size: 16px;
+    color: #f34804;
+    padding-left: 10px;
+}
+.sc{
+    color: #888a8c;
+    padding-left: 10px;
+}
+.new ul li div{
+    padding: 10px;
+    color: #0b0d0e;
+}
+.by{
+    width: 15px;
+    height: 12px;
+    background-color: #f34804;
+    color: #fff;
+    margin-right: 4px;
+}
+
+

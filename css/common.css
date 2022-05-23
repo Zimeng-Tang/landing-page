@@ -1,0 +1,38 @@
+/*版心*/
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+/*快捷导航模块*/
+.shortcut{
+    height: 31px;
+    line-height: 31px;
+    background-color: #f1f1f1;
+}
+.shortcut ul li{
+    float: left;
+}
+.shortcut .fr ul li:nth-child(2){   
+    width: 1px;
+    height: 12px;
+    background-color: #666;
+    margin: 9px 15px 0;
+}
+.arrow-icon::after{
+    content: '\e91e';
+    font-family: 'icomoon';/*换*/
+    margin-left: 6px;
+}
+/*标题模块*/
+header{
+    height: 100px;
+    line-height: 100px;
+    padding-left: 50px;
+    border-bottom: 2px solid black;
+}
+header b{
+    font: 40px '宋体';
+    margin-right: 6px;
+}
